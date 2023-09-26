@@ -1,0 +1,15 @@
+:root {
+  --blues: #adff8d;
+}
+
+#loginLink:hover {
+  color: var(--blues) !important;
+}
+
+#registerLink:hover {
+  color: var(--blues) !important;
+}
+
+.iconsHover:hover {
+  color: var(--blues) !important;
+}

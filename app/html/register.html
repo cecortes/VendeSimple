@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VendeSimple (C) 2023</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/registerStyle.css">
+  <!-- jQuery -->
+  <script src="../assets/vendor/jquery/dist/jquery.min.js"></script>
+  <!-- JS -->
+  <script src="../js/register.js"></script>
+  <!-- Back4App -->
+  <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+  <!-- Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+  <!-- Icons -->
+  <link rel="stylesheet" href="../assets/vendor/nucleo/css/nucleo.css" type="text/css">
+  <link rel="stylesheet" href="../assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" type="text/css">
+  <!-- Argon CSS -->
+  <link rel="stylesheet" href="../assets/css/argon.css?v=1.2.0" type="text/css">
+</head>
+<body class="bg-default">
+
+  <!-- Navbar -->
+  <nav id="navbar-main" class="navbar navbar-horizontal navbar-transparent navbar-main navbar-expand-lg navbar-light">
+
+    <!-- Nav container -->
+    <div class="container">
+
+      <!-- Logo Image -->
+      <a class="navbar-brand" href="dashboard.html">
+        <img src="../assets/img/brand/white.png" width="200px">
+      </a>
+
+      <!-- Toggler button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapse Menu -->
+      <div class="navbar-collapse navbar-custom-collapse collapse" id="navbar-collapse">
+
+        <!-- Header -->
+        <div class="navbar-collapse-header">
+
+          <!-- Row -->
+          <div class="row">
+
+            <!-- Brand Container -->
+            <div class="col-6 collapse-brand">
+
+              <!-- Brand Logo -->
+              <a href="dashboard.html">
+                <img src="../assets/img/brand/logo.png">
+              </a>
+
+            </div>
+
+            <!-- Collapse close -->
+            <div class="col-6 collapse-close">
+  
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Header Items -->
+        <ul class="navbar-nav mr-auto">
+
+          <!-- Login -->
+          <li class="nav-item">
+            <a href="login.html" class="nav-link" id="loginLink">
+              <span class="nav-link-inner--text">Ingresar</span>
+            </a>
+          </li>
+
+          <!-- Register -->
+          <li class="nav-item">
+            <a href="register.html" class="nav-link" id="registerLink">
+              <span class="nav-link-inner--text">Registrarse</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <!-- Separator -->
+        <hr class="d-lg-none" />
+
+        <!-- Social Networks -->
+        <ul class="navbar-nav align-items-lg-center ml-lg-auto">
+
+          <!-- Facebook -->
+          <li class="nav-item">
+
+            <!-- Link -->
+            <a class="nav-link nav-link-icon" href="#" target="_blank" data-toggle="tooltip" data-original-title="Like us on Facebook">
+
+              <!-- Icon -->
+              <i class="fab fa-facebook-square iconsHover"></i>
+
+              <!-- Text -->
+              <span class="nav-link-inner--text d-lg-none">Facebook</span>
+
+            </a>
+
+          </li>
+
+          <!-- Instagram -->
+          <li class="nav-item">
+
+            <!-- Link -->
+            <a class="nav-link nav-link-icon" href="https://www.instagram.com/creativetimofficial" target="_blank" data-toggle="tooltip" data-original-title="Follow us on Instagram">
+
+              <!-- Icon -->
+              <i class="fab fa-instagram iconsHover"></i>
+
+              <!-- Text -->
+              <span class="nav-link-inner--text d-lg-none">Instagram</span>
+
+            </a>
+
+          </li>
+
+          <!-- Twitter -->
+          <li class="nav-item">
+
+            <!-- Link -->
+            <a class="nav-link nav-link-icon" href="https://twitter.com/creativetim" target="_blank" data-toggle="tooltip" data-original-title="Follow us on Twitter">
+
+              <!-- Icon -->
+              <i class="fab fa-twitter-square iconsHover"></i>
+
+              <!-- Text -->
+              <span class="nav-link-inner--text d-lg-none">Twitter</span>
+
+            </a>
+
+          </li>
+
+          <!-- Pricing -->
+          <li class="nav-item d-none d-lg-block ml-lg-4">
+
+            <!-- Link -->
+            <a href="https://www.creative-tim.com/product/argon-dashboard-pro?ref=ad_upgrade_pro" target="_blank" class="btn btn-neutral btn-icon">
+
+              <!-- Icon -->
+              <span class="btn-inner--icon">
+                <i class="fas fa-shopping-cart mr-2"></i>
+              </span>
+
+              <!-- Text -->
+              <span class="nav-link-inner--text">Precios</span>
+            </a>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </nav>
+
+  <!-- Footer -->
+  <footer class="py-5" id="footer-main">
+
+    <!-- Footer Container-->
+    <div class="container">
+
+      <!-- Row -->
+      <div class="row align-items-center justify-content-xl-between">
+
+        <!-- Column Copyright -->
+        <div class="col-xl-6">
+
+          <!-- Copyriht -->
+          <div class="copyright text-center text-xl-left text-muted">
+            &copy; 2023 <a href="https://www.cesarlopezcortes.com" class="font-weight-bold ml-1" target="_blank">César López</a>
+          </div>
+
+        </div>
+
+        <!-- Column Lists-->
+        <div class="col-xl-6">
+
+          <!-- List links -->
+          <ul class="nav nav-footer justify-content-center justify-content-xl-end">
+
+            <!-- Main page -->
+            <li class="nav-item">
+              <a href="#" class="nav-link" target="_blank">
+                Main Page
+              </a>
+            </li>
+
+            <!-- Presentation Page -->
+            <li class="nav-item">
+              <a href="#" class="nav-link" target="_blank">
+                Acerca de
+              </a>
+            </li>
+
+            <!-- Blog -->
+            <li class="nav-item">
+              <a href="#" class="nav-link" target="_blank">
+                Blog
+              </a>
+            </li>
+
+            <!-- Contact Us -->
+            <li class="nav-item">
+              <a href="#" class="nav-link" target="_blank">Contáctanos</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  <!-- Core -->
+  <script src="../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/js-cookie/js.cookie.js"></script>
+  <script src="../assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js"></script>
+  <script src="../assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js"></script>
+  <!-- Argon JS -->
+  <script src="../assets/js/argon.js?v=1.2.0"></script>
+  
+</body>
+</html>

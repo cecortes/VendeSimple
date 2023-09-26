@@ -1,0 +1,29 @@
+{
+  "name": "vendesimple",
+  "version": "1.0.0",
+  "description": "WebApp para ventas in situ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cecortes/VendeSimple.git"
+  },
+  "keywords": [
+    "WebApp",
+    "Html",
+    "Css",
+    "JS",
+    "Node",
+    "Back4App",
+    "Argon",
+    "BootStrap"
+  ],
+  "author": "César López",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cecortes/VendeSimple/issues"
+  },
+  "homepage": "https://github.com/cecortes/VendeSimple#readme"
+}
