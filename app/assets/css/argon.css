@@ -20,14 +20,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
 
 :root {
-  --blue: #5e72e4;
+  --blue: #a0c1ff;
   --indigo: #5603ad;
   --purple: #8965e0;
   --pink: #f3a4b5;
   --red: #f5365c;
   --orange: #fb6340;
   --yellow: #ffd600;
-  --blues: #70b1fb;
+  --blues: #9199a2;
   --drkblue: #2c5bde;
   --menta: #a4f4bc;
   --drkmenta: #608a71;
@@ -20362,8 +20362,8 @@ button.section-darker:focus {
 .bg-gradient-primary {
   background: linear-gradient(
     87deg,
-    var(--primary) 0,
-    var(--drkmenta) 100%
+    var(--blue) 0,
+    var(--drkblue) 100%
   ) !important;
 }
 

@@ -15,6 +15,13 @@
 - [x] Create the structure of the project.
 - [x] From Aragon Project, copy the `assets` folder.
 - [x] Create a register page.
+
+---
+
+## 26/09/23
+
 - [ ] Fix the footers colors, change to blues colors.
+- [x] Create the header div.
+- [ ] Create the page content div.
 
 ---
