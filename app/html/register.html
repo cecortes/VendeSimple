@@ -169,28 +169,226 @@
 
   </nav>
 
-  <!-- Header -->
-  <div class="header bg-gradient-primary py-7 py-lg-8 pt-lg-9">
-    
-    <!-- Container -->
-    <div class="container">
+  <!-- Main Content -->
+  <div class="main-content">
 
-      <!-- Body -->
-      <div class="header-body text-center mb-7">
+    <!-- Header -->
+    <div class="header bg-gradient-primary py-7 py-lg-8 pt-lg-9">
 
-        <!-- Row-->
-        <div class="row justify-content-center">
+      <!-- Container -->
+      <div class="container">
 
-          <!-- Columns -->
-          <div class="col-xl-5 col-lg-6 col-md-8 px-5">
+        <!-- Body -->
+        <div class="header-body text-center mb-7">
 
-            <!-- Title H1 -->
-            <h1 class="text-white">Crear una cuenta</h1>
+          <!-- Row -->
+          <div class="row justify-content-center">
 
-            <!-- Copy -->
-            <p class="text-lead text-white">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic reiciendis quibusdam, eos, accusantium eum vel numquam soluta animi corporis ipsam nobis error atque sunt ipsum odio aliquid! Corporis, sequi deserunt?
-            </p>
+            <!-- Columns -->
+            <div class="col-xl-5 col-lg-6 col-md-8 px-5">
+
+              <!-- Title H1 -->
+              <h1 class="text-white">Crear una cuenta</h1>
+
+              <!-- Copy -->
+              <p class="text-lead text-white">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic reiciendis quibusdam, eos, accusantium eum vel numquam soluta animi corporis ipsam nobis error atque sunt ipsum odio aliquid! Corporis, sequi deserunt?
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Separator -->
+      <div class="separator separator-bottom separator-skew zindex-100">
+
+        <!-- SVG -->
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <polygon class="fill-default" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+
+      </div>
+
+    </div>
+
+    <!-- Page Content -->
+    <div class="container mt--8 pb-5">
+
+      <!-- Table -->
+      <div class="row justify-content-center">
+
+        <!-- Columns -->
+        <div class="col-lg-6 col-md-8">
+
+          <!-- Card Container-->
+          <div class="card bg-secondary border-0">
+
+            <!-- Card Header -->
+            <div class="card-header bg-transparent pb-5">
+
+              <!-- Text -->
+              <div class="text-muted text-center mt-2 mb-4">
+                <small>Crear desde</small>
+              </div>
+
+              <!-- Btn Wrapper -->
+              <div class="text-center">
+
+                <!-- Github -->
+                <a href="#" class="btn btn-neutral btn-icon mr-4">
+                  <span class="btn-inner--icon"><img src="../assets/img/icons/common/github.svg"></span>
+                  <span class="btn-inner--text black">Github</span>
+                </a>
+
+                <!-- Google -->
+                <a href="#" class="btn btn-neutral btn-icon">
+                  <span class="btn-inner--icon"><img src="../assets/img/icons/common/google.svg"></span>
+                  <span class="btn-inner--text black">Google</span>
+                </a>
+
+              </div>
+
+            </div>
+
+            <!-- Card Body -->
+            <div class="card-body px-lg-5 py-lg-5">
+
+              <!-- Card copy -->
+              <div class="text-center text-muted mb-4">
+                <small>Crear un nuevo usuario y contraseña</small>
+              </div>
+
+              <!-- Create User Form -->
+              <form role="form">
+
+                <!-- Form group (User) -->
+                <div class="form-group">
+                  
+                  <!-- Input Container (User) -->
+                  <div class="input-group input-group-merge input-group-alternative mb-3">
+  
+                    <!-- Icon Container (User) -->
+                    <div class="input-group-prepend">
+  
+                      <!-- Icon (User)-->
+                      <span class="input-group-text"><i class="ni ni-hat-3"></i>
+                      </span>
+
+                    </div>
+  
+                    <!-- Input (User) -->
+                    <input class="form-control" placeholder="Nombre de Usuario" type="text" id="user">
+
+                  </div>
+
+                </div>
+
+                <!-- Form group (Mail) -->
+                <div class="form-group">
+                  
+                  <!-- Input Container (mail) -->
+                  <div class="input-group input-group-merge input-group-alternative mb-3">
+  
+                    <!-- Icon Container (mail) -->
+                    <div class="input-group-prepend">
+  
+                      <!-- Icon (mail)-->
+                      <span class="input-group-text"><i class="ni ni-email-83"></i>
+                      </span>
+
+                    </div>
+  
+                    <!-- Input (mail) -->
+                    <input class="form-control" placeholder="Email" type="email" id="mail">
+
+                  </div>
+
+                </div>
+
+                <!-- Form Group (Pass) -->
+                <div class="form-group">
+
+                  <!-- Input Container (Pass) -->
+                  <div class="input-group input-group-merge input-group-alternative">
+
+                    <!-- Icon container (Pass) -->
+                    <div class="input-group-prepend">
+
+                      <!-- Icon (pass) -->
+                      <span class="input-group-text"><i class="ni ni-lock-circle-open"></i>
+                      </span>
+
+                    </div>
+                    
+                    <!-- Input (pass) -->
+                    <input class="form-control" placeholder="Contraseña" type="password" id="pass">
+
+                    
+                  </div>
+                  
+                  <!-- Custom Alert Div -->
+                  <div class="" role="alert" id="alertPass">
+                      
+                  </div>
+
+                </div>
+
+                <!-- Validation pass strength -->
+                <div class="text-muted font-italic">
+
+                  <small>
+                    Tipo de contraseña: <span class="text-success font-weight-700" id="label"></span>
+                  </small>
+
+                </div>
+
+                <!-- Table Row -->
+                <div class="row my-4">
+
+                  <!-- Table Columns -->
+                  <div class="col-12">
+
+                    <!-- Checkbox Container -->
+                    <div class="custom-control custom-control-alternative custom-checkbox">
+
+                      <!-- Agree Input -->
+                      <input class="custom-control-input accent-green" id="customCheckRegister" type="checkbox">
+
+                      <!-- Remember me Label -->
+                      <label class="custom-control-label" for="customCheckRegister">
+                        <span class="text-muted">Estoy de acuerdo con los
+                          <a href="#!" id="terms">términos y condiciones</a>
+                        </span>
+                      </label>
+
+                    </div>
+
+                    <!-- Custom Alert Div -->
+                  <div class="" role="alert" id="alertTerms">
+                      
+                  </div>
+
+                  </div>
+
+                </div>
+
+                <!-- Action container -->
+                <div class="text-center">
+
+                  <!-- Button Sign In -->
+                  <button type="button" class="btn btn-primary mt-4" id="newUser">
+                    Crear cuenta
+                  </button>
+
+                </div>
+
+              </form>
+
+            </div>
 
           </div>
 
@@ -199,17 +397,7 @@
       </div>
 
     </div>
-    
-    <!-- Separator -->
-    <div class="separator separator-bottom separator-skew zindex-100">
-  
-      <!-- SVG -->
-      <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
-        <polygon class="fill-default" points="2560 0 2560 100 0 100"></polygon>
-      </svg>
-  
-    </div>
-    
+
   </div>
 
 

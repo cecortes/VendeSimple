@@ -13,3 +13,11 @@
 .iconsHover:hover {
   color: var(--blues) !important;
 }
+
+#terms {
+  color: #074bd4 !important;
+}
+
+#terms:hover {
+  color: aliceblue !important;
+}

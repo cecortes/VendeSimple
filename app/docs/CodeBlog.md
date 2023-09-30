@@ -20,8 +20,16 @@
 
 ## 26/09/23
 
-- [ ] Fix the footers colors, change to blues colors.
+- [x] Fix the footers colors, change to blues colors.
 - [x] Create the header div.
-- [ ] Create the page content div.
+- [x] Create the page content div.
+
+---
+
+## 27/09/23
+
+- [x] Fix the colors in the login area.
+- [ ] Link the javascript file to the register page.
+- [ ] Update the functionalities in verify pass function.
 
 ---
