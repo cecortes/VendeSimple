@@ -14672,6 +14672,10 @@ a.text-secondary:focus {
   color: #2dce89 !important;
 }
 
+.text-ok {
+  color: #f2ff00 !important;
+}
+
 a.text-success:hover,
 a.text-success:focus {
   color: #1f8f5f !important;
@@ -14690,6 +14694,10 @@ a.text-info:focus {
   color: #fb6340 !important;
 }
 
+.text-medio {
+  color: #fc2f00 !important;
+}
+
 a.text-warning:hover,
 a.text-warning:focus {
   color: #ea3005 !important;
@@ -14697,6 +14705,10 @@ a.text-warning:focus {
 
 .text-danger {
   color: #f5365c !important;
+}
+
+.text-debil {
+  color: #ff0000 !important;
 }
 
 a.text-danger:hover,

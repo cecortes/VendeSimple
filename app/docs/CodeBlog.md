@@ -29,7 +29,9 @@
 ## 27/09/23
 
 - [x] Fix the colors in the login area.
-- [ ] Link the javascript file to the register page.
-- [ ] Update the functionalities in verify pass function.
+- [x] Link the javascript file to the register page.
+- [x] Update the functionalities in verify pass function.
+- [x] Create the api to register a new user.
+- [ ] Create the login page.
 
 ---
