@@ -21,6 +21,8 @@
 
 :root {
   --blue: #a0c1ff;
+  --azul: #a8fffe;
+  --drkaxul: #3a506b;
   --indigo: #5603ad;
   --purple: #8965e0;
   --pink: #f3a4b5;
@@ -204,13 +206,13 @@ sup {
 a {
   text-decoration: none;
 
-  color: var(--primary);
+  color: var(--azul);
   background-color: transparent;
 }
 a:hover {
   text-decoration: none;
 
-  color: var(--drkgreen);
+  color: var(--light);
 }
 
 a:not([href]) {
@@ -18981,10 +18983,10 @@ textarea[resize="horizontal"] {
 }
 
 .nav-link {
-  color: var(--primary);
+  color: var(--azul);
 }
 .nav-link:hover {
-  color: var(--menta);
+  color: var(--lighter);
 }
 .nav-link i.ni {
   position: relative;
