@@ -51,7 +51,7 @@
   --dark: #212529;
   --default: #172b4d;
   --white: #fff;
-  --neutral: #f1fded;
+  --neutral: #cfddf6;
   --darker: black;
   --fondo: #4c5160;
   --breakpoint-xs: 0;
@@ -5273,7 +5273,8 @@ input[type="button"].btn-block {
 }
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:focus {
-  color: rgba(0, 0, 0, 0.7);
+  /*color: rgba(0, 0, 0, 0.7);*/
+  color: var(--azul);
 }
 .navbar-light .navbar-nav .nav-link.disabled {
   color: rgba(0, 0, 0, 0.3);

@@ -26,7 +26,7 @@
 
 ---
 
-## 27/09/23
+## 30/09/23
 
 - [x] Fix the colors in the login area.
 - [x] Link the javascript file to the register page.
@@ -35,8 +35,18 @@
 - [x] Create the login page.
 - [x] Change the logo page.
 - [x] Fix the hover colors in the top nav, links and footer.
-- [ ] Link the javascript file to the login page.
-- [ ] Validate the access with the api.
-- [ ] Re direct to the dashborad or the error page.
+
+---
+
+## 01/10/23
+
+- [x] Link the javascript file to the login page.
+- [x] Validate the access with the api.
+- [x] Re direct to the dashborad or the error page.
+- [ ] **_If an error or credentials are wrong show a modal and clear fields. (Tech Debt)_**
+- [ ] **_Make the functionality to remember credentials. (Tech Debt)_**
+- [x] Start creating the dashboard page.
+- [x] Fix navbar colors and styles.
+- [ ] Create the top menu on the dash page.
 
 ---
