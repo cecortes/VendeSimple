@@ -32,6 +32,11 @@
 - [x] Link the javascript file to the register page.
 - [x] Update the functionalities in verify pass function.
 - [x] Create the api to register a new user.
-- [ ] Create the login page.
+- [x] Create the login page.
+- [x] Change the logo page.
+- [x] Fix the hover colors in the top nav, links and footer.
+- [ ] Link the javascript file to the login page.
+- [ ] Validate the access with the api.
+- [ ] Re direct to the dashborad or the error page.
 
 ---

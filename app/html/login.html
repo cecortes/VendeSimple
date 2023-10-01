@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>VendeSimple (C) 2023</title>
   <!-- CSS -->
-  <link rel="stylesheet" href="../css/registerStyle.css">
+  <link rel="stylesheet" href="../css/loginStyle.css">
   <!-- jQuery -->
   <script src="../assets/vendor/jquery/dist/jquery.min.js"></script>
   <!-- JS -->
-  <script src="../js/register.js"></script>
+  <script src="../js/"></script>
   <!-- Back4App -->
   <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
   <!-- Fonts -->
@@ -89,7 +89,7 @@
           </li>
 
         </ul>
-
+        
         <!-- Separator -->
         <hr class="d-lg-none" />
 
@@ -100,10 +100,10 @@
           <li class="nav-item">
 
             <!-- Link -->
-            <a class="nav-link nav-link-icon" href="#" target="_blank" data-toggle="tooltip" data-original-title="Like us on Facebook">
+            <a class="nav-link nav-link-icon" href="https://www.facebook.com/creativetim" target="_blank" data-toggle="tooltip" data-original-title="Like us on Facebook">
 
               <!-- Icon -->
-              <i class="fab fa-facebook-square iconsHover"></i>
+              <i class="fab fa-facebook-square"></i>
 
               <!-- Text -->
               <span class="nav-link-inner--text d-lg-none">Facebook</span>
@@ -119,7 +119,7 @@
             <a class="nav-link nav-link-icon" href="https://www.instagram.com/creativetimofficial" target="_blank" data-toggle="tooltip" data-original-title="Follow us on Instagram">
 
               <!-- Icon -->
-              <i class="fab fa-instagram iconsHover"></i>
+              <i class="fab fa-instagram"></i>
 
               <!-- Text -->
               <span class="nav-link-inner--text d-lg-none">Instagram</span>
@@ -135,7 +135,7 @@
             <a class="nav-link nav-link-icon" href="https://twitter.com/creativetim" target="_blank" data-toggle="tooltip" data-original-title="Follow us on Twitter">
 
               <!-- Icon -->
-              <i class="fab fa-twitter-square iconsHover"></i>
+              <i class="fab fa-twitter-square"></i>
 
               <!-- Text -->
               <span class="nav-link-inner--text d-lg-none">Twitter</span>
@@ -166,7 +166,7 @@
       </div>
 
     </div>
-
+    
   </nav>
 
   <!-- Main Content -->
@@ -181,14 +181,14 @@
         <!-- Body -->
         <div class="header-body text-center mb-7">
 
-          <!-- Row -->
+          <!-- Row-->
           <div class="row justify-content-center">
 
             <!-- Columns -->
             <div class="col-xl-5 col-lg-6 col-md-8 px-5">
 
               <!-- Title H1 -->
-              <h1 class="text-white">Crear una cuenta</h1>
+              <h1 class="text-white">Bienvenido</h1>
 
               <!-- Copy -->
               <p class="text-lead text-white">
@@ -218,28 +218,28 @@
     <!-- Page Content -->
     <div class="container mt--8 pb-5">
 
-      <!-- Table -->
+      <!-- Row -->
       <div class="row justify-content-center">
 
         <!-- Columns -->
-        <div class="col-lg-6 col-md-8">
+        <div class="col-lg-5 col-md-7">
 
           <!-- Card Container-->
-          <div class="card bg-secondary border-0">
+          <div class="card bg-secondary border-0 mb-0">
 
             <!-- Card Header -->
             <div class="card-header bg-transparent pb-5">
 
               <!-- Text -->
-              <div class="text-muted text-center mt-2 mb-4">
-                <small>Crear desde</small>
+              <div class="text-muted text-center mt-2 mb-3">
+                <small>Ingresar con</small>
               </div>
 
               <!-- Btn Wrapper -->
-              <div class="text-center">
+              <div class="btn-wrapper text-center">
 
                 <!-- Github -->
-                <a href="#" class="btn btn-neutral btn-icon mr-4">
+                <a href="#" class="btn btn-neutral btn-icon">
                   <span class="btn-inner--icon"><img src="../assets/img/icons/common/github.svg"></span>
                   <span class="btn-inner--text black">Github</span>
                 </a>
@@ -259,39 +259,17 @@
 
               <!-- Card copy -->
               <div class="text-center text-muted mb-4">
-                <small>Crear un nuevo usuario y contraseña</small>
+                <small>Ingresa con usuario y contraseña</small>
               </div>
 
-              <!-- Create User Form -->
+              <!-- Login Form -->
               <form role="form">
 
-                <!-- Form group (User) -->
-                <div class="form-group">
-                  
-                  <!-- Input Container (User) -->
-                  <div class="input-group input-group-merge input-group-alternative mb-3">
-  
-                    <!-- Icon Container (User) -->
-                    <div class="input-group-prepend">
-  
-                      <!-- Icon (User)-->
-                      <span class="input-group-text"><i class="ni ni-hat-3"></i>
-                      </span>
-
-                    </div>
-  
-                    <!-- Input (User) -->
-                    <input class="form-control" placeholder="Nombre de Usuario" type="text" id="user">
-
-                  </div>
-
-                </div>
-
                 <!-- Form group (Mail) -->
-                <div class="form-group">
+                <div class="form-group mb-3">
                   
                   <!-- Input Container (mail) -->
-                  <div class="input-group input-group-merge input-group-alternative mb-3">
+                  <div class="input-group input-group-merge input-group-alternative">
   
                     <!-- Icon Container (mail) -->
                     <div class="input-group-prepend">
@@ -327,52 +305,20 @@
                     <!-- Input (pass) -->
                     <input class="form-control" placeholder="Contraseña" type="password" id="pass">
 
-                    
-                  </div>
-                  
-                  <!-- Custom Alert Div -->
-                  <div class="" role="alert" id="alertPass">
-                      
                   </div>
 
                 </div>
 
-                <!-- Validation pass strength -->
-                <div class="text-muted font-italic">
+                <!-- Checkbox Container -->
+                <div class="custom-control custom-control-alternative custom-checkbox">
 
-                  <small>
-                    Tipo de contraseña: <span class="text-success font-weight-700" id="label"></span>
-                  </small>
+                  <!-- Remember me Input -->
+                  <input class="custom-control-input accent-green" id=" customCheckLogin" type="checkbox">
 
-                </div>
-
-                <!-- Table Row -->
-                <div class="row my-4">
-
-                  <!-- Table Columns -->
-                  <div class="col-12">
-
-                    <!-- Checkbox Container -->
-                    <div class="custom-control custom-control-alternative custom-checkbox">
-
-                      <!-- Agree Input -->
-                      <input class="custom-control-input accent-green" id="customCheckRegister" type="checkbox">
-
-                      <!-- Remember me Label -->
-                      <label class="custom-control-label" for="customCheckRegister">
-                        <span class="text-muted">Estoy de acuerdo con los
-                          <a href="#!" id="terms">términos y condiciones</a>
-                        </span>
-                      </label>
-
-                    </div>
-
-                    <!-- Custom Alert Div -->
-                  <div class="" role="alert" id="alertTerms">
-                      
-                  </div>
-
-                  </div>
+                  <!-- Remember me Label -->
+                  <label class="custom-control-label" for=" customCheckLogin">
+                    <span class="text-muted">Recordar credenciales</span>
+                  </label>
 
                 </div>
 
@@ -380,13 +326,38 @@
                 <div class="text-center">
 
                   <!-- Button Sign In -->
-                  <button type="button" class="btn btn-primary mt-4" id="newUser">
-                    Crear cuenta
+                  <button type="button" class="btn btn-primary my-4" id="login">
+                    Ingresar
                   </button>
 
                 </div>
 
               </form>
+
+            </div>
+
+          </div>
+
+          <!-- Links Container -->
+          <div class="row mt-3">
+
+            <!-- Column Forgot Passs -->
+            <div class="col-6">
+
+              <!-- Forgot Pass Link -->
+              <a href="#" class="text-light">
+                <small>No recuerdo mi contraseña</small>
+              </a>
+
+            </div>
+
+            <!-- Column Create New Account -->
+            <div class="col-6 text-right">
+
+              <!-- Create New Account Link -->
+              <a href="#" class="text-light">
+                <small>Crear una cuenta nueva</small>
+              </a>
 
             </div>
 
@@ -399,7 +370,6 @@
     </div>
 
   </div>
-
 
   <!-- Footer -->
   <footer class="py-5" id="footer-main">
@@ -461,6 +431,7 @@
     </div>
 
   </footer>
+  
 
   <!-- Core -->
   <script src="../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
@@ -469,6 +440,6 @@
   <script src="../assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js"></script>
   <!-- Argon JS -->
   <script src="../assets/js/argon.js?v=1.2.0"></script>
-  
+
 </body>
 </html>
