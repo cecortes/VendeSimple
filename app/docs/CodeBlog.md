@@ -47,6 +47,10 @@
 - [ ] **_Make the functionality to remember credentials. (Tech Debt)_**
 - [x] Start creating the dashboard page.
 - [x] Fix navbar colors and styles.
-- [ ] Create the top menu on the dash page.
 
 ---
+
+## 02/10/23
+
+- [x] Create the top menu on the dash page. (Notifications done)
+- [ ] Create the top menu on the dash page.
