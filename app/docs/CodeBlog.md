@@ -53,4 +53,11 @@
 ## 02/10/23
 
 - [x] Create the top menu on the dash page. (Notifications done)
-- [ ] Create the top menu on the dash page.
+
+---
+
+## 03/10/23
+
+- [x] Create the top menu on the dash page. (Top menu done)
+
+---
