@@ -59,5 +59,16 @@
 ## 03/10/23
 
 - [x] Create the top menu on the dash page. (Top menu done)
+- [x] Change elements into the actions menu, translate to spanish.
+
+---
+
+## 04/10/23
+
+- [x] Leave only the elements needed and delete the others.
+- [x] Change elements into the profile menu, translate to spanish.
+- [x] Leave only the elements needed and delete the others.
+- [x] Link to the API to get the user data needed and show into profile menu.
+- [ ] Continue with the header section on the dash page.
 
 ---
