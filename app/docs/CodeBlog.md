@@ -69,6 +69,12 @@
 - [x] Change elements into the profile menu, translate to spanish.
 - [x] Leave only the elements needed and delete the others.
 - [x] Link to the API to get the user data needed and show into profile menu.
-- [ ] Continue with the header section on the dash page.
+
+---
+
+## 07/10/23
+
+- [x] Continue with the header section on the dash page.
+- [ ] Continue with the content section on the dash page.
 
 ---
