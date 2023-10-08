@@ -75,6 +75,16 @@
 ## 07/10/23
 
 - [x] Continue with the header section on the dash page.
-- [ ] Continue with the content section on the dash page.
+
+---
+
+## 08/10/23
+
+- [x] Continue with the first tables in the content section on the dash page.
+- [ ] **_Modify Users table to add an image or avatar. (Tech Debt)_**
+- [ ] Create the table to save sales data on the database.
+- [ ] Make carefully the data model for the sales table.
+- [ ] Create the table to save pedidos data on the database.
+- [ ] Make carefully the data model for the pedidos table.
 
 ---

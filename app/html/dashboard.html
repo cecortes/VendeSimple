@@ -826,13 +826,122 @@
 
     </div>
 
+    <!-- Page Content -->
+    <div class="container-fluid mt--6">
+
+      <!-- Charts Container -->
+      <div class="row">
+
+        <!-- Ventas Column -->
+        <div class="col-xl-8">
+
+          <!-- Ventas Card Container-->
+          <div class="card bg-default">
+
+            <!-- Ventas Card Header Data -->
+            <div class="card-header bg-transparent">
+
+              <!-- Ventas Card Title -->
+              <div class="row align-items-center">
+
+                <!-- Title -->
+                <div class="col">
+                  <h6 class="text-light text-uppercase ls-1 mb-1">Resumen</h6>
+                  <h5 class="h3 text-white mb-0">Registro de Ventas</h5>
+                </div>
+                
+                <!-- Ventas data Column -->
+                <div class="col">
+
+                  <!-- Ventas data list -->
+                  <ul class="nav nav-pills justify-content-end">
+
+                    <!-- Ventas data Item Y Axis -->
+                    <li class="nav-item mr-2 mr-md-0" data-toggle="chart" data-target="#chart-sales-dark" data-update='{"data":{"datasets":[{"data":[0, 20, 10, 30, 15, 40, 20, 60, 60]}]}}' data-prefix="$" data-suffix="k">
+                      <a href="#" class="nav-link py-2 px-3 active" data-toggle="tab">
+                        <span class="d-none d-md-block">Mes</span>
+                        <span class="d-md-none">M</span>
+                      </a>
+                    </li>
+
+                    <!-- Ventas data Item X Axis -->
+                    <li class="nav-item" data-toggle="chart" data-target="#chart-sales-dark" data-update='{"data":{"datasets":[{"data":[0, 20, 5, 25, 10, 30, 15, 40, 40]}]}}' data-prefix="$" data-suffix="k">
+                      <a href="#" class="nav-link py-2 px-3" data-toggle="tab">
+                        <span class="d-none d-md-block">Semana</span>
+                        <span class="d-md-none">S</span>
+                      </a>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <!-- Ventas Chart Body -->
+            <div class="card-body">
+
+              <!-- Chart -->
+              <div class="chart">
+                <!-- Chart wrapper -->
+                <canvas id="chart-sales-dark" class="chart-canvas"></canvas>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Pedidos Column -->
+        <div class="col-xl-4">
+
+          <!-- Pedidos Card Container -->
+          <div class="card">
+
+            <!-- Pedidos Card Header Data -->
+            <div class="card-header bg-transparent">
+
+              <!-- Pedidos Card Title -->
+              <div class="row align-items-center">
+                <div class="col">
+                  <h6 class="text-uppercase text-muted ls-1 mb-1">Resumen</h6>
+                  <h5 class="h3 mb-0">Total Pedidos</h5>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Pedidos Card Body -->
+            <div class="card-body">
+              <!-- Chart -->
+              <div class="chart">
+                <canvas id="chart-bars" class="chart-canvas"></canvas>
+              </div>
+
+            </div>
+
+          </div>
+          
+        </div>
+
+      </div>
+
+    </div>
+
   </div>
 
   <!-- Core -->
+  <script src="../assets/vendor/jquery/dist/jquery.min.js"></script>
   <script src="../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script src="../assets/vendor/js-cookie/js.cookie.js"></script>
   <script src="../assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js"></script>
   <script src="../assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js"></script>
+  <!-- Optional JS -->
+  <script src="../assets/vendor/chart.js/dist/Chart.min.js"></script>
+  <script src="../assets/vendor/chart.js/dist/Chart.extension.js"></script>
   <!-- Argon JS -->
   <script src="../assets/js/argon.js?v=1.2.0"></script>
   
