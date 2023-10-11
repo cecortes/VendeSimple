@@ -82,9 +82,23 @@
 
 - [x] Continue with the first tables in the content section on the dash page.
 - [ ] **_Modify Users table to add an image or avatar. (Tech Debt)_**
-- [ ] Create the table to save sales data on the database.
-- [ ] Make carefully the data model for the sales table.
-- [ ] Create the table to save pedidos data on the database.
-- [ ] Make carefully the data model for the pedidos table.
+- [x] Create the table to save sales data on the database.
+- [x] Make carefully the data model for the sales table.
+- [x] Create the table to save pedidos data on the database.
+- [x] Make carefully the data model for the pedidos table.
+
+---
+
+## 09/10/23
+
+- [ ] Adecuate the footer according to the design.
+- [ ] Start with the Pedidos section.
+- [ ] Make the database table according with the Pedidos data model.
+- [ ] Web sketch to add a new pedido (Modal).
+- [ ] Create the api to save a new pedido.
+- [ ] Web sketch to edit a pedido (Modal??).
+- [ ] Create the api to edit a pedido.
+- [ ] Web sketch to delete a pedido (Modal??).
+- [ ] Create the api to delete a pedido.
 
 ---
