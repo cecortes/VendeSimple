@@ -89,10 +89,8 @@
 
 ---
 
-## 09/10/23
+## 10/10/23
 
-- [ ] Adecuate the footer according to the design.
-- [ ] Start with the Pedidos section.
 - [ ] Make the database table according with the Pedidos data model.
 - [ ] Web sketch to add a new pedido (Modal).
 - [ ] Create the api to save a new pedido.
@@ -100,5 +98,12 @@
 - [ ] Create the api to edit a pedido.
 - [ ] Web sketch to delete a pedido (Modal??).
 - [ ] Create the api to delete a pedido.
+
+---
+
+## 11/10/23
+
+- [x] Adecuate the footer according to the design.
+- [ ] Start Pedidos section.
 
 ---
