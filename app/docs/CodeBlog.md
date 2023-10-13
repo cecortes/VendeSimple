@@ -114,3 +114,9 @@
 - [ ] Into Pedidos Section create the table to show all pedidos.
 
 ---
+
+## 13/10/23
+
+- [ ] Into Pedidos Section header, make CRUDE action buttons, that buttons will open the corresponding modal actions.
+
+---
