@@ -104,6 +104,13 @@
 ## 11/10/23
 
 - [x] Adecuate the footer according to the design.
-- [ ] Start Pedidos section.
+- [x] Start Pedidos section.
+
+---
+
+## 12/10/23
+
+- [x] Make Pedidos section web sketching.
+- [ ] Into Pedidos Section create the table to show all pedidos.
 
 ---
