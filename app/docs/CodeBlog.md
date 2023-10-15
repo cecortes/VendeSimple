@@ -124,8 +124,14 @@
 
 - [x] Make the main view of the Pedidos section.
 - [x] Into Pedidos Section create the table to show all pedidos.
-- [ ] Make the modal to add a new pedido.
 - [ ] Make the modal to edit a pedido.
 - [ ] Make the modal to delete a pedido.
+
+---
+
+## 15/10/23
+
+- [x] Make the modal to add a new pedido.
+- [ ] Finish the modal design to add a new pedido.
 
 ---

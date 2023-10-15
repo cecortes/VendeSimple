@@ -625,16 +625,95 @@
 
           </div>
 
+          <!-- CTA Buttons -->
           <div class="col-lg-7 col-md-10 align-items-center">
 
+            <!-- CTA Row -->
             <div class="row">
 
-              <!-- Button Nuevo Pedido -->
+              <!-- Button Nuevo Pedido --
               <a href="#!" class="btn btn-neutral mb-2">
-                <!-- Icon -->
+                <!-- Icon --
                 <i class="fa fa-plus"></i>
                 Nuevo pedido
-              </a>
+              </a> -->
+
+              <!-- Col Nuevo Pedido -->
+              <div class="col-md-4">
+
+                <!-- Button Nuevo Pedido -->
+                <button type="button" class="btn btn-block btn-neutral mb-2" data-toggle="modal" data-target="#modal-form">
+                  <!-- Icon -->
+                  <i class="fa fa-plus"></i>
+                  Nuevo pedido
+                </button>
+
+                <!-- Modal Container New Pedido -->
+                <div class="modal fade" id="modal-form" tabindex="-1" role="dialog" aria-labelledby="modal-form" aria-hidden="true">
+
+                  <!-- Modal New Pedido -->
+                  <div class="modal-dialog modal- modal-dialog-centered modal-lg" role="document">
+
+                    <!-- Modal Content New Pedido -->
+                    <div class="modal-content">
+
+                      <!-- Modal Body New Pedido -->
+                      <div class="modal-body p-0">
+
+                        <!-- Modal Card New Pedido -->
+                        <div class="card bg-secondary border-0 mb-0">
+
+                          <!-- Card Body New Pedido -->
+                          <div class="card-body px-lg-5 py-lg-5">
+
+                            <!-- Title New Pedido -->
+                            <div class="text-center text-muted mb-4">
+                              <medium>Agregar Nuevo Pedido</medium>
+                            </div>
+
+                            <!-- Form New Pedido -->
+                            <form role="form">
+                              <div class="form-group mb-3">
+                                  <div class="input-group input-group-merge input-group-alternative">
+                                      <div class="input-group-prepend">
+                                          <span class="input-group-text"><i class="ni ni-email-83"></i></span>
+                                      </div>
+                                      <input class="form-control" placeholder="Email" type="email">
+                                  </div>
+                              </div>
+                              <div class="form-group">
+                                  <div class="input-group input-group-merge input-group-alternative">
+                                      <div class="input-group-prepend">
+                                          <span class="input-group-text"><i class="ni ni-lock-circle-open"></i></span>
+                                      </div>
+                                      <input class="form-control" placeholder="Password" type="password">
+                                  </div>
+                              </div>
+                              <div class="custom-control custom-control-alternative custom-checkbox">
+                                  <input class="custom-control-input" id=" customCheckLogin" type="checkbox">
+                                  <label class="custom-control-label" for=" customCheckLogin">
+                                      <span class="text-muted">Remember me</span>
+                                  </label>
+                              </div>
+                              <div class="text-center">
+                                  <button type="button" class="btn btn-primary my-4">Sign in</button>
+                              </div>
+                          </form>
+
+                          </div>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
 
               <!-- Button Editar Pedido -->
               <a href="#!" class="btn btn-neutral mb-2">
@@ -660,6 +739,7 @@
 
     </div>
 
+    <!-- Page Content ROW -->
     <div class="row">
       
       <!-- Page Content -->
@@ -704,6 +784,7 @@
                       <th scope="col">Cliente</th>
                       <th scope="col">Fecha</th>
                       <th scope="col">Total</th>
+                      <th scope="col">Notas</th>
                       <th scope="col">Estado</th>
                     </tr>
                   </thead>
@@ -724,6 +805,9 @@
                         $2,500 USD
                       </td>
                       <td>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </td>
+                      <td>
                         <i class="fa fa-sticky-note text-info mr-3"></i>
                         Recibido
                       </td>
@@ -751,6 +835,9 @@
                       </td>
                       <td>
                         $3,500 USD
+                      </td>
+                      <td>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, voluptate odit.
                       </td>
                       <td>
                         <i class="fa fa-box-open text-warning mr-3"></i>
@@ -782,6 +869,9 @@
                         $1,500 USD
                       </td>
                       <td>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
+                      </td>
+                      <td>
                         <i class="fa fa-money-bill-wave text-success mr-3"></i>
                         Pagado
                       </td>
@@ -809,6 +899,9 @@
                       </td>
                       <td>
                         $2,500 USD
+                      </td>
+                      <td>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum vel
                       </td>
                       <td>
                         <i class="fa fa-sticky-note text-info mr-3"></i>
@@ -840,6 +933,9 @@
                         $1,500 USD
                       </td>
                       <td>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad porro
+                      </td>
+                      <td>
                         <i class="fa fa-money-bill-wave text-success mr-3"></i>
                         Pagado
                       </td>
@@ -867,6 +963,9 @@
                       </td>
                       <td>
                         $3,500 USD
+                      </td>
+                      <td>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel corporis,
                       </td>
                       <td>
                         <i class="fa fa-box-open text-warning mr-3"></i>
@@ -898,6 +997,9 @@
                         $2,500 USD
                       </td>
                       <td>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. In, vero
+                      </td>
+                      <td>
                         <i class="fa fa-sticky-note text-info mr-3"></i>
                         Recibido
                       </td>
@@ -925,6 +1027,9 @@
                       </td>
                       <td>
                         $3,500 USD
+                      </td>
+                      <td>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga
                       </td>
                       <td>
                         <i class="fa fa-box-open text-warning mr-3"></i>
@@ -956,6 +1061,9 @@
                         $1,500 USD
                       </td>
                       <td>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos quas
+                      </td>
+                      <td>
                         <i class="fa fa-money-bill-wave text-success mr-3"></i>
                         Pagado
                       </td>
@@ -983,6 +1091,9 @@
                       </td>
                       <td>
                         $2,500 USD
+                      </td>
+                      <td>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque vero
                       </td>
                       <td>
                         <i class="fa fa-sticky-note text-info mr-3"></i>
@@ -1014,6 +1125,9 @@
                         $1,500 USD
                       </td>
                       <td>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. In quidem
+                      </td>
+                      <td>
                         <i class="fa fa-money-bill-wave text-success mr-3"></i>
                         Pagado
                       </td>
@@ -1041,6 +1155,9 @@
                       </td>
                       <td>
                         $3,500 USD
+                      </td>
+                      <td>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis quod
                       </td>
                       <td>
                         <i class="fa fa-box-open text-warning mr-3"></i>
