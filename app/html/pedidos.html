@@ -660,72 +660,419 @@
 
     </div>
 
-    <!-- Page Content -->
-    <div class="container-fluid mt--6">
-
-      <!-- Row Cards -->
-      <div class="row">
-        <div class="col-xl-4 order-xl-2">
-          <div class="card card-profile">
-            <img src="../assets/img/theme/img-1-1000x600.jpg" alt="Image placeholder" class="card-img-top">
-            <div class="row justify-content-center">
-              <div class="col-lg-3 order-lg-2">
-                <div class="card-profile-image">
-                  <a href="#">
-                    <img src="../assets/img/theme/team-4.jpg" class="rounded-circle">
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="card-header text-center border-0 pt-8 pt-md-4 pb-0 pb-md-4">
-              <div class="d-flex justify-content-between">
-                <a href="#" class="btn btn-sm btn-info  mr-4 ">Connect</a>
-                <a href="#" class="btn btn-sm btn-default float-right">Message</a>
-              </div>
-            </div>
-            <div class="card-body pt-0">
-              <div class="row">
-                <div class="col">
-                  <div class="card-profile-stats d-flex justify-content-center">
-                    <div>
-                      <span class="heading">22</span>
-                      <span class="description">Friends</span>
-                    </div>
-                    <div>
-                      <span class="heading">10</span>
-                      <span class="description">Photos</span>
-                    </div>
-                    <div>
-                      <span class="heading">89</span>
-                      <span class="description">Comments</span>
-                    </div>
+    <div class="row">
+      
+      <!-- Page Content -->
+      <div class="container-fluid mt--6">
+  
+        <!-- Table Container -->
+        <div class="row">
+          
+          <!-- Pedidos Table -->
+          <div class="col">
+  
+            <!-- Pedidos Card Container -->
+            <div class="card bg-gradient-default shadow">
+  
+              <!-- Pedidos Card Header Data -->
+              <div class="card-header bg-transparent border-0">
+  
+                <!-- Pedidos Card Title -->
+                <div class="row align-items-center">
+  
+                  <div class="card-header bg-transparent border-0">
+  
+                    <!-- Pedidos Card Title -->
+                    <h3 class="text-white mb-0">Pedidos</h3>
+  
                   </div>
+  
                 </div>
+  
               </div>
-              <div class="text-center">
-                <h5 class="h3">
-                  Jessica Jones<span class="font-weight-light">, 27</span>
-                </h5>
-                <div class="h5 font-weight-300">
-                  <i class="ni location_pin mr-2"></i>Bucharest, Romania
-                </div>
-                <div class="h5 mt-4">
-                  <i class="ni business_briefcase-24 mr-2"></i>Solution Manager - Creative Tim Officer
-                </div>
-                <div>
-                  <i class="ni education_hat mr-2"></i>University of Computer Science
-                </div>
+  
+              <!-- Pedidos Table Responsive -->
+              <div class="table-responsive">
+
+                <!-- Pedidos Table -->
+                <table class="table align-items-center table-dark table-flush">
+
+                  <!-- Pedidos table header -->
+                  <thead class="thead-dark">
+                    <tr>
+                      <th scope="col">ID</th>
+                      <th scope="col">Cliente</th>
+                      <th scope="col">Fecha</th>
+                      <th scope="col">Total</th>
+                      <th scope="col">Estado</th>
+                    </tr>
+                  </thead>
+
+                  <!-- Pedidos table body -->
+                  <tbody>
+                    <tr>
+                      <th scope="row">
+                        1
+                      </th>
+                      <td>
+                        Argon Design System
+                      </td>
+                      <td>
+                        14/09/2023
+                      </td>
+                      <td>
+                        $2,500 USD
+                      </td>
+                      <td>
+                        <i class="fa fa-sticky-note text-info mr-3"></i>
+                        Recibido
+                      </td>
+                      <td class="text-right">
+                        <div class="dropdown">
+                          <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-ellipsis-v"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+                            <a class="dropdown-item" href="#">Abrir</a>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">
+                        2
+                      </th>
+                      <td>
+                        Syl Design System
+                      </td>
+                      <td>
+                        18/09/2023
+                      </td>
+                      <td>
+                        $3,500 USD
+                      </td>
+                      <td>
+                        <i class="fa fa-box-open text-warning mr-3"></i>
+                        Enviado
+                      </td>
+                      <td class="text-right">
+                        <div class="dropdown">
+                          <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-ellipsis-v"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+                            <a class="dropdown-item" href="#">Abrir</a>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">
+                        3
+                      </th>
+                      <td>
+                        Account Design System
+                      </td>
+                      <td>
+                        20/09/2023
+                      </td>
+                      <td>
+                        $1,500 USD
+                      </td>
+                      <td>
+                        <i class="fa fa-money-bill-wave text-success mr-3"></i>
+                        Pagado
+                      </td>
+                      <td class="text-right">
+                        <div class="dropdown">
+                          <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-ellipsis-v"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+                            <a class="dropdown-item" href="#">Abrir</a>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">
+                        1
+                      </th>
+                      <td>
+                        Argon Design System
+                      </td>
+                      <td>
+                        14/09/2023
+                      </td>
+                      <td>
+                        $2,500 USD
+                      </td>
+                      <td>
+                        <i class="fa fa-sticky-note text-info mr-3"></i>
+                        Recibido
+                      </td>
+                      <td class="text-right">
+                        <div class="dropdown">
+                          <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-ellipsis-v"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+                            <a class="dropdown-item" href="#">Abrir</a>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">
+                        3
+                      </th>
+                      <td>
+                        Account Design System
+                      </td>
+                      <td>
+                        20/09/2023
+                      </td>
+                      <td>
+                        $1,500 USD
+                      </td>
+                      <td>
+                        <i class="fa fa-money-bill-wave text-success mr-3"></i>
+                        Pagado
+                      </td>
+                      <td class="text-right">
+                        <div class="dropdown">
+                          <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-ellipsis-v"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+                            <a class="dropdown-item" href="#">Abrir</a>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">
+                        2
+                      </th>
+                      <td>
+                        Syl Design System
+                      </td>
+                      <td>
+                        18/09/2023
+                      </td>
+                      <td>
+                        $3,500 USD
+                      </td>
+                      <td>
+                        <i class="fa fa-box-open text-warning mr-3"></i>
+                        Enviado
+                      </td>
+                      <td class="text-right">
+                        <div class="dropdown">
+                          <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-ellipsis-v"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+                            <a class="dropdown-item" href="#">Abrir</a>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">
+                        1
+                      </th>
+                      <td>
+                        Argon Design System
+                      </td>
+                      <td>
+                        14/09/2023
+                      </td>
+                      <td>
+                        $2,500 USD
+                      </td>
+                      <td>
+                        <i class="fa fa-sticky-note text-info mr-3"></i>
+                        Recibido
+                      </td>
+                      <td class="text-right">
+                        <div class="dropdown">
+                          <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-ellipsis-v"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+                            <a class="dropdown-item" href="#">Abrir</a>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">
+                        2
+                      </th>
+                      <td>
+                        Syl Design System
+                      </td>
+                      <td>
+                        18/09/2023
+                      </td>
+                      <td>
+                        $3,500 USD
+                      </td>
+                      <td>
+                        <i class="fa fa-box-open text-warning mr-3"></i>
+                        Enviado
+                      </td>
+                      <td class="text-right">
+                        <div class="dropdown">
+                          <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-ellipsis-v"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+                            <a class="dropdown-item" href="#">Abrir</a>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">
+                        3
+                      </th>
+                      <td>
+                        Account Design System
+                      </td>
+                      <td>
+                        20/09/2023
+                      </td>
+                      <td>
+                        $1,500 USD
+                      </td>
+                      <td>
+                        <i class="fa fa-money-bill-wave text-success mr-3"></i>
+                        Pagado
+                      </td>
+                      <td class="text-right">
+                        <div class="dropdown">
+                          <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-ellipsis-v"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+                            <a class="dropdown-item" href="#">Abrir</a>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">
+                        1
+                      </th>
+                      <td>
+                        Argon Design System
+                      </td>
+                      <td>
+                        14/09/2023
+                      </td>
+                      <td>
+                        $2,500 USD
+                      </td>
+                      <td>
+                        <i class="fa fa-sticky-note text-info mr-3"></i>
+                        Recibido
+                      </td>
+                      <td class="text-right">
+                        <div class="dropdown">
+                          <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-ellipsis-v"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+                            <a class="dropdown-item" href="#">Abrir</a>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">
+                        3
+                      </th>
+                      <td>
+                        Account Design System
+                      </td>
+                      <td>
+                        20/09/2023
+                      </td>
+                      <td>
+                        $1,500 USD
+                      </td>
+                      <td>
+                        <i class="fa fa-money-bill-wave text-success mr-3"></i>
+                        Pagado
+                      </td>
+                      <td class="text-right">
+                        <div class="dropdown">
+                          <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-ellipsis-v"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+                            <a class="dropdown-item" href="#">Abrir</a>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">
+                        2
+                      </th>
+                      <td>
+                        Syl Design System
+                      </td>
+                      <td>
+                        18/09/2023
+                      </td>
+                      <td>
+                        $3,500 USD
+                      </td>
+                      <td>
+                        <i class="fa fa-box-open text-warning mr-3"></i>
+                        Enviado
+                      </td>
+                      <td class="text-right">
+                        <div class="dropdown">
+                          <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-ellipsis-v"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+                            <a class="dropdown-item" href="#">Abrir</a>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+
+                </table>
+  
               </div>
+  
             </div>
-             
-
+  
           </div>
-
+  
         </div>
-
+  
       </div>
 
     </div>
+
 
   </div>
 

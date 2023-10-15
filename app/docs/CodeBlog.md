@@ -111,12 +111,21 @@
 ## 12/10/23
 
 - [x] Make Pedidos section web sketching.
-- [ ] Into Pedidos Section create the table to show all pedidos.
 
 ---
 
 ## 13/10/23
 
-- [ ] Into Pedidos Section header, make CRUDE action buttons, that buttons will open the corresponding modal actions.
+- [x] Into Pedidos Section header, make CRUDE action buttons, that buttons will open the corresponding modal actions.
+
+---
+
+## 14/10/23
+
+- [x] Make the main view of the Pedidos section.
+- [x] Into Pedidos Section create the table to show all pedidos.
+- [ ] Make the modal to add a new pedido.
+- [ ] Make the modal to edit a pedido.
+- [ ] Make the modal to delete a pedido.
 
 ---
