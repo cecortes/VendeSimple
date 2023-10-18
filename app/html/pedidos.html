@@ -34,7 +34,7 @@
         <a class="navbar-brand" href="javascript:void(0)">
 
           <!-- Logo -->
-          <img src="../assets/img/brand/white.png" class="navbar-brand-img" alt="logotipo">
+          <img src="../assets/img/brand/logo.png" class="navbar-brand-img" alt="logotipo">
 
         </a>
 
@@ -673,14 +673,114 @@
 
                             <!-- Form New Pedido -->
                             <form role="form">
-                              <div class="form-group mb-3">
-                                  <div class="input-group input-group-merge input-group-alternative">
+
+                              <!-- Row Date and Client -->
+                              <div class="row">
+
+                                <!-- Column Date -->
+                                <div class="col-lg-3">
+                                  
+                                  <!-- Form Group Date -->
+                                  <div class="form-group mb-3">
+    
+                                    <!-- Form Input DatePicker -->
+                                    <div class="input-group input-group-merge input-group-alternative">
+    
+                                      <!-- Form Input DatePicker Container -->
                                       <div class="input-group-prepend">
-                                          <span class="input-group-text"><i class="ni ni-email-83"></i></span>
+    
+                                        <!-- Form Input DatePicker Icon -->
+                                        <span class="input-group-text"><i class="ni ni-calendar-grid-58"></i></span>
+    
                                       </div>
-                                      <input class="form-control" placeholder="Email" type="email">
+    
+                                      <!-- Form Input DatePicker -->
+                                      <input class="form-control datepicker" placeholder="Fecha" type="text" value="10/17/2023">
+    
+                                    </div>
+    
                                   </div>
+
+                                </div>
+
+                                <!-- Column Client -->
+                                <div class="col-lg-9">
+
+                                  <!-- Form Group Cliente -->
+                                  <div class="form-group">
+                                    
+                                    <!-- Form Input Select Cliente -->
+                                    <select class="form-control text-center" id="clientes">
+                                      <option>1</option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                      <option>4</option>
+                                      <option>5</option>
+                                    </select>
+
+                                  </div>
+
+                                </div>
+
                               </div>
+
+                              <!-- Row RFC, Phone number & Localidad -->
+                              <div class="row">
+
+                                <!-- Column RFC data -->
+                                <div class="col-sm-4">
+
+                                <!-- RFC -->
+                                <h4 class=" text-muted mb-3" id="rfc">LOCC7809282G3</h4>
+
+                                </div>
+
+                                <!-- Column RFC Text-->
+                                <div class="col-sm-1">
+
+                                <!-- RFC -->
+                                <h4 class="text-muted mb-3">Tel:</h4>
+
+                                </div>
+
+                                <!-- Column Tel -->
+                                <div class="col-sm-3">
+
+                                <!-- RFC -->
+                                <h4 class=" text-muted mb-3" id="tel">222 2879078</h4>
+                                
+                                </div>
+
+                                <!-- Column Tel -->
+                                <div class="col-sm-4">
+
+                                <!-- RFC -->
+                                <h4 class="text-center text-muted mb-3" id="localidad">Puebla, Puebla</h4>
+                                
+                                </div>
+
+
+                              </div>
+
+                              <!-- Row Notas -->
+                              <div class="form-group">
+
+                                <!-- Form Input Notas -->
+                                <div class="input-group">
+
+                                  <!-- Form Input Notas Container -->
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text">Notas:</span>
+                                  </div>
+
+                                  <!-- Form Input Notas -->
+                                  <textarea class="form-control" aria-label="Notas" id="notas"></textarea>
+
+                                </div>
+
+                              </div>
+
+
                               <div class="form-group">
                                   <div class="input-group input-group-merge input-group-alternative">
                                       <div class="input-group-prepend">
@@ -1202,6 +1302,8 @@
   <!-- Optional JS -->
   <script src="../assets/vendor/chart.js/dist/Chart.min.js"></script>
   <script src="../assets/vendor/chart.js/dist/Chart.extension.js"></script>
+  <!-- DatePicker -->
+  <script src="../assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
   <!-- Argon JS -->
   <script src="../assets/js/argon.js?v=1.2.0"></script>
   

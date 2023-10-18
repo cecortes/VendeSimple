@@ -132,6 +132,12 @@
 ## 15/10/23
 
 - [x] Make the modal to add a new pedido.
+
+---
+
+# 17/10/23
+
+- [x] Modal New Pedido, Select Date and Client.
 - [ ] Finish the modal design to add a new pedido.
 
 ---
