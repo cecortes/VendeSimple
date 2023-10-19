@@ -138,6 +138,13 @@
 # 17/10/23
 
 - [x] Modal New Pedido, Select Date and Client.
+
+---
+
+# 18/10/23
+
+- [x] Modal New Pedido continue, Add products and quantities.
+- [ ] Add table to show the products added to the pedido.
 - [ ] Finish the modal design to add a new pedido.
 
 ---
