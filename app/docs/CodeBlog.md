@@ -144,7 +144,13 @@
 # 18/10/23
 
 - [x] Modal New Pedido continue, Add products and quantities.
-- [ ] Add table to show the products added to the pedido.
+
+---
+
+# 19/10/23
+
+- [x] Add table to show the products added to the pedido.
+- [ ] Add labels/inputs to show the total and taxes.
 - [ ] Finish the modal design to add a new pedido.
 
 ---
