@@ -150,7 +150,13 @@
 # 19/10/23
 
 - [x] Add table to show the products added to the pedido.
-- [ ] Add labels/inputs to show the total and taxes.
+
+---
+
+# 21/10/23
+
+- [x] Add labels/inputs to show the total and taxes.
+- [ ] Add buttons to cancel and save the pedido.
 - [ ] Finish the modal design to add a new pedido.
 
 ---
