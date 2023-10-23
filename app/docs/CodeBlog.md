@@ -156,7 +156,13 @@
 # 21/10/23
 
 - [x] Add labels/inputs to show the total and taxes.
-- [ ] Add buttons to cancel and save the pedido.
-- [ ] Finish the modal design to add a new pedido.
+
+---
+
+# 22/10/23
+
+- [x] Add buttons to cancel and save the pedido.
+- [x] Finish the modal design to add a new pedido.
+- [ ] Start Modal Edit Pedido.
 
 ---
