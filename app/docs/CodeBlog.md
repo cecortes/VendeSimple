@@ -163,6 +163,11 @@
 
 - [x] Add buttons to cancel and save the pedido.
 - [x] Finish the modal design to add a new pedido.
+
+---
+
+# 23/10/23
+
 - [ ] Start Modal Edit Pedido.
 
 ---
