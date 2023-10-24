@@ -169,5 +169,6 @@
 # 23/10/23
 
 - [ ] Start Modal Edit Pedido.
+      **_ It's possible make a modal to edit a pedido? _**
 
 ---
