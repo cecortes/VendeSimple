@@ -172,3 +172,8 @@
       **_ It's possible make a modal to edit a pedido? _**
 
 ---
+
+# 24/10/23
+
+> As seen in ZMT edit page, The best way to do it is create the modal to show what's in the selected pedido. Using that modal as a base, we can create the modal to edit the pedido.
+> **_CLC_**.
