@@ -641,493 +641,7 @@
                   Nuevo pedido
                 </button>
 
-                <!-- Modal Container New Pedido -->
-                <div class="modal fade" id="modal-new" tabindex="-1" role="dialog" aria-labelledby="modal-new" aria-hidden="true">
-
-                  <!-- Modal New Pedido -->
-                  <div class="modal-dialog modal- modal-dialog-centered modal-xl" role="document">
-
-                    <!-- Modal Content New Pedido -->
-                    <div class="modal-content">
-
-                      <!-- Modal Body New Pedido -->
-                      <div class="modal-body p-0">
-
-                        <!-- Modal Card New Pedido -->
-                        <div class="card bg-secondary border-0 mb-0">
-
-                          <!-- Card Body New Pedido -->
-                          <div class="card-body px-lg-5 py-lg-5">
-
-                            <!-- Title New Pedido -->
-                            <div class="text-center text-muted mb-4">
-                              <medium>Agregar Nuevo Pedido</medium>
-                            </div>
-
-                            <!-- Form New Pedido -->
-                            <form role="form">
-
-                              <!-- Row Date and Client -->
-                              <div class="row">
-
-                                <!-- Column Date -->
-                                <div class="col-lg-3">
-                                  
-                                  <!-- Form Group Date -->
-                                  <div class="form-group mb-3">
-    
-                                    <!-- Form Input DatePicker -->
-                                    <div class="input-group input-group-merge input-group-alternative">
-    
-                                      <!-- Form Input DatePicker Container -->
-                                      <div class="input-group-prepend">
-    
-                                        <!-- Form Input DatePicker Icon -->
-                                        <span class="input-group-text"><i class="ni ni-calendar-grid-58"></i></span>
-    
-                                      </div>
-    
-                                      <!-- Form Input DatePicker -->
-                                      <input class="form-control datepicker" placeholder="Fecha" type="text" value="10/17/2023">
-    
-                                    </div>
-    
-                                  </div>
-
-                                </div>
-
-                                <!-- Column Client -->
-                                <div class="col-lg-9">
-
-                                  <!-- Form Group Cliente -->
-                                  <div class="form-group">
-                                    
-                                    <!-- Form Input Select Cliente -->
-                                    <select class="form-control text-center" id="clientes">
-                                      <option>1</option>
-                                      <option>2</option>
-                                      <option>3</option>
-                                      <option>4</option>
-                                      <option>5</option>
-                                    </select>
-
-                                  </div>
-
-                                </div>
-
-                              </div>
-
-                              <!-- Row RFC, Phone number & Localidad -->
-                              <div class="row">
-
-                                <!-- Column RFC data -->
-                                <div class="col-sm-4">
-
-                                <!-- RFC -->
-                                <h4 class=" text-muted mb-3" id="rfc">LOCC7809282G3</h4>
-
-                                </div>
-
-                                <!-- Column RFC Text-->
-                                <div class="col-sm-1">
-
-                                <!-- RFC -->
-                                <h4 class="text-muted mb-3">Tel:</h4>
-
-                                </div>
-
-                                <!-- Column Tel -->
-                                <div class="col-sm-3">
-
-                                <!-- RFC -->
-                                <h4 class=" text-muted mb-3" id="tel">222 2879078</h4>
-                                
-                                </div>
-
-                                <!-- Column Tel -->
-                                <div class="col-sm-4">
-
-                                <!-- RFC -->
-                                <h4 class="text-center text-muted mb-3" id="localidad">Puebla, Puebla</h4>
-                                
-                                </div>
-
-
-                              </div>
-
-                              <!-- Row Notas -->
-                              <div class="form-group">
-
-                                <!-- Form Input Notas -->
-                                <div class="input-group">
-
-                                  <!-- Form Input Notas Container -->
-                                  <div class="input-group-prepend">
-                                    <span class="input-group-text">Notas:</span>
-                                  </div>
-
-                                  <!-- Form Input Notas -->
-                                  <textarea class="form-control" aria-label="Notas" id="notas"></textarea>
-
-                                </div>
-
-                              </div>
-
-                              <!-- Divider -->
-                              <hr>
-
-                              <!-- Row Productos -->
-                              <div class="row">
-
-                                <!-- Column Productos -->
-                                <div class="col-lg-6">
-
-                                  <!-- Form Group Productos -->
-                                  <div class="form-group">
-                                    
-                                    <!-- Form Input Select Productos -->
-                                    <label for="productos" class="form-control-label">Producto</label>
-                                    <select class="form-control text-center" id="productos">
-                                      <option>Shampoo</option>
-                                      <option>Libros</option>
-                                      <option>Espejos</option>
-                                      <option>Libretas</option>
-                                      <option>Plumas</option>
-                                    </select>
-    
-                                  </div>
-
-                                </div>
-
-                                <!-- Column Cantidad -->
-                                <div class="col-lg-2">
-
-                                  <!-- Form Group Cantidad -->
-                                  <div class="form-group">
-
-                                    <!-- Form Input Number Cantidad -->
-                                    <label for="cantidad" class="form-control-label">Cantidad</label>
-                                    <input class="form-control" type="number" value="1" id="cantidad">
-
-                                  </div>
-
-                                </div>
-
-                                <!-- Column Precio Unitario -->
-                                <div class="col-lg-2">
-
-                                  <!-- Form Group Precio Unitario-->
-                                  <div class="form-group">
-
-                                    <!-- Form Input Precio Unitario -->
-                                    <label for="pu" class="form-control-label">P.U.</label>
-                                    <input class="form-control text-danger" type="text" value="$ 200.00" id="pu" disabled>
-
-                                  </div>
-
-                                </div>
-
-                                <!-- Column Add Button -->
-                                <div class="col-lg-2">
-
-                                  <!-- Form Group Button Add -->
-                                  <div class="form-group">
-
-                                    <!-- Form Button Add -->
-                                    <label for="add_prod" class="form-control-label">Agregar</label>
-                                    <button class="btn btn-icon btn-primary" type="button" id="add_prod">
-                                      <span class="btn-inner--icon"><i class="ni ni-fat-add"></i></span>
-                                    </button>
-
-                                  </div>
-
-                                </div>
-
-                                
-                              </div>
-
-                              <!-- Divider -->
-                              <hr>
-
-                              <!-- Detail Table Container -->
-                              <div class="row">
-                                
-                                <!-- Pedidos Detalle Table -->
-                                <div class="col-2">
-                        
-                                  <!-- Pedidos Detalle Card Container -->
-                                  <div class="card">
-                        
-                                    <!-- Pedidos Detalle Table Responsive -->
-                                    <div class="table-responsive">
-
-                                      <!-- Pedidos Table -->
-                                      <table class="table align-items-center table-flush" id="detail_table">
-
-                                        <!-- Pedidos table header -->
-                                        <thead class="thead-light">
-                                          <tr>
-                                            <th scope="col">Descripción</th>
-                                            <th scope="col">Cantidad</th>
-                                            <th scope="col">P.U.</th>
-                                            <th scope="col">SubTotal</th>
-                                          </tr>
-                                        </thead>
-
-                                        <!-- Pedidos table body -->
-                                        <tbody>
-                                          <tr>
-                                            <th scope="row">
-                                              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            </th>
-                                            <td>
-                                              10
-                                            </td>
-                                            <td>
-                                              $ 150.00 MXN
-                                            </td>
-                                            <td>
-                                              $1,500 MXN
-                                            </td> 
-                                            <td class="text-right">
-                                              <div class="dropdown">
-                                                <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                  <i class="fas fa-ellipsis-v"></i>
-                                                </a>
-                                                <div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
-                                                  <a class="dropdown-item" href="#">Borrar</a>
-                                                </div>
-                                              </div>
-                                            </td>                                           
-                                          </tr>
-
-                                          <tr>
-                                            <th scope="row">
-                                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, voluptate odit.
-                                            </th>
-                                            <td>
-                                              2
-                                            </td>
-                                            <td>
-                                              $ 350.00 MXN
-                                            </td>
-                                            <td>
-                                              $ 700.00 MXN
-                                            </td>                                           
-                                            <td class="text-right">
-                                              <div class="dropdown">
-                                                <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                  <i class="fas fa-ellipsis-v"></i>
-                                                </a>
-                                                <div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
-                                                  <a class="dropdown-item" href="#">Borrar</a>
-                                                </div>
-                                              </div>
-                                            </td>
-                                          </tr>
-
-                                          <tr>
-                                            <th scope="row">
-                                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
-                                            </th>
-                                            <td>
-                                              3
-                                            </td>
-                                            <td>
-                                              $ 200.00 MXN
-                                            </td>
-                                            <td>
-                                              $ 600.00 MXN
-                                            </td>                                      
-                                            <td class="text-right">
-                                              <div class="dropdown">
-                                                <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                  <i class="fas fa-ellipsis-v"></i>
-                                                </a>
-                                                <div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
-                                                  <a class="dropdown-item" href="#">Borrar</a>
-                                                </div>
-                                              </div>
-                                            </td>
-                                          </tr>
-
-                                          <tr>
-                                            <th scope="row">
-                                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum vel
-                                            </th>
-                                            <td>
-                                              4
-                                            </td>
-                                            <td>
-                                              $ 500.00 MXN
-                                            </td>
-                                            <td>
-                                              $ 2,000 MXN
-                                            </td>                                            
-                                            <td class="text-right">
-                                              <div class="dropdown">
-                                                <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                  <i class="fas fa-ellipsis-v"></i>
-                                                </a>
-                                                <div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
-                                                  <a class="dropdown-item" href="#">Borrar</a>
-                                                </div>
-                                              </div>
-                                            </td>
-                                          </tr>
-
-                                          <tr>
-                                            <th scope="row">
-                                              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad porro
-                                            </th>
-                                            <td>
-                                              5
-                                            </td>
-                                            <td>
-                                              $ 700.00 MXN
-                                            </td>
-                                            <td>
-                                              $ 3,500 MXN
-                                            </td>                                           
-                                            <td class="text-right">
-                                              <div class="dropdown">
-                                                <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                  <i class="fas fa-ellipsis-v"></i>
-                                                </a>
-                                                <div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
-                                                  <a class="dropdown-item" href="#">Borrar</a>
-                                                </div>
-                                              </div>
-                                            </td>
-                                          </tr>
-
-                                        </tbody>
-
-                                      </table>
-                        
-                                    </div>
-                        
-                                  </div>
-                        
-                                </div>
-                        
-                              </div>
-
-                              <!-- Divider -->
-                              <hr>
-
-                              <!-- Label SubTotal Group -->
-                              <div class="row">
-
-                                <!-- Column Subtotal Text -->
-                                <div class="col-sm-8">
-
-                                <!-- Subtotal Text -->
-                                <h4 class=" text-muted mb-3 text-right">Subtotal</h4>
-
-                                </div>
-
-                                <!-- Column SubTotal Data -->
-                                <div class="col-sm-4">
-
-                                <!-- SubTotal Data -->
-                                <h4 class="text-muted mb-3 text-right" id="subtotal">$ 15,000.00 MXN</h4>
-
-                                </div>
-
-                              </div>
-
-                              <!-- Label IVA Group -->
-                              <div class="row">
-
-                                <!-- Column IVA Text -->
-                                <div class="col-sm-8">
-
-                                <!-- IVA Text -->
-                                <h4 class=" text-muted mb-3 text-right">IVA</h4>
-
-                                </div>
-
-                                <!-- Column IVA Data -->
-                                <div class="col-sm-4">
-
-                                <!-- IVA Data -->
-                                <h4 class="text-muted mb-3 text-right" id="iva">$ 1,500.00 MXN</h4>
-
-                                </div>
-
-                              </div>
-
-                              <!-- Divider -->
-                              <hr>
-
-                              <!-- Label TOTAL Group -->
-                              <div class="row">
-
-                                <!-- Column Total Text -->
-                                <div class="col-sm-8">
-
-                                <!-- Subtotal Text -->
-                                <h3 class=" text-muted mb-3 text-right">Total</h3>
-
-                                </div>
-
-                                <!-- Column SubTotal Data -->
-                                <div class="col-sm-4">
-
-                                <!-- Total Data -->
-                                <h3 class="text-muted mb-3 text-right" id="total">$ 16,500.00 MXN</h3>
-
-                                </div>
-
-                              </div>
-
-                              <!-- Divider -->
-                              <hr>
-
-                              <!-- Buttons Save & Cancel Pedido -->
-                              <div class="row">
-
-                                <!-- Column Cancel Button -->
-                                <div class="col-sm-4">
-
-                                  <!-- Cancel Button -->
-                                  <button type="button" class="btn btn-block btn-danger mb-3">
-                                    <i class="fa fa-trash"></i>
-                                    Cancelar
-                                  </button>
-
-                                </div>
-
-                                <!-- Space -->
-                                <div class="col-sm-4"></div>
-
-                                <!-- Column Save Button -->
-                                <div class="col-sm-4">
-
-                                  <!-- Save Button -->
-                                  <button type="button" class="btn btn-block btn-primary mb-3">
-                                    <i class="fa fa-plus-circle"></i>
-                                    Guardar
-                                  </button>
-
-                                </div>
-
-                              </div>
-                            
-                          </form>
-
-                          </div>
-
-                        </div>
-
-                      </div>
-
-                    </div>
-
-                  </div>
-
-                </div>
+                
 
               </div>
 
@@ -1141,30 +655,30 @@
                   Editar pedido
                 </button>
 
-                <!-- Modal Container New Pedido -->
+                <!-- Modal Container Editar Pedido -->
                 <div class="modal fade" id="modal-edit" tabindex="-1" role="dialog" aria-labelledby="modal-edit" aria-hidden="true">
 
-                  <!-- Modal New Pedido -->
+                  <!-- Modal Editar Pedido -->
                   <div class="modal-dialog modal- modal-dialog-centered modal-xl" role="document">
 
-                    <!-- Modal Content New Pedido -->
+                    <!-- Modal Content Editar Pedido -->
                     <div class="modal-content">
 
-                      <!-- Modal Body New Pedido -->
+                      <!-- Modal Body Editar Pedido -->
                       <div class="modal-body p-0">
 
-                        <!-- Modal Card New Pedido -->
+                        <!-- Modal Card Editar Pedido -->
                         <div class="card bg-secondary border-0 mb-0">
 
-                          <!-- Card Body New Pedido -->
+                          <!-- Card Body Editar Pedido -->
                           <div class="card-body px-lg-5 py-lg-5">
 
-                            <!-- Title New Pedido -->
+                            <!-- Title Editar Pedido -->
                             <div class="text-center text-muted mb-4">
                               <medium>Editar Pedido</medium>
                             </div>
 
-                            <!-- Form New Pedido -->
+                            <!-- Form Editar Pedido -->
                             <form role="form">
 
                               <!-- Row Date and Client -->
@@ -1726,34 +1240,15 @@
                             <i class="fas fa-ellipsis-v"></i>
                           </a>
                           <div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
-                            <a class="dropdown-item" role="button" href="#" data-toggle="modal" data-target="#exampleModal">Abrir</a>
+
+                            <!-- Call to Modal Pedido Details -->
+                            <a class="dropdown-item" role="button" href="#" data-toggle="modal" data-target="#modalDetails">Abrir</a>
                             <a class="dropdown-item" href="#">Editar</a>
                             <a class="dropdown-item" href="#">Borrar</a>
                           </div>
                         </div>
                       </td>
                     </tr>
-                    
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                      <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                            </button>
-                          </div>
-                          <div class="modal-body">
-                            ...
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
 
                     <tr>
                       <th scope="row">
@@ -2122,6 +1617,848 @@
 
     </div>
 
+    <!-- Modal Container New Pedido -->
+    <div class="modal fade" id="modal-new" tabindex="-1" role="dialog" aria-labelledby="modal-new" aria-hidden="true">
+
+      <!-- Modal New Pedido -->
+      <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+
+        <!-- Modal Content New Pedido -->
+        <div class="modal-content">
+
+          <!-- Modal Body New Pedido -->
+          <div class="modal-body p-0">
+
+            <!-- Modal Card New Pedido -->
+            <div class="card bg-secondary border-0 mb-0">
+
+              <!-- Card Body New Pedido -->
+              <div class="card-body px-lg-5 py-lg-5">
+
+                <!-- Title New Pedido -->
+                <div class="text-center text-muted mb-4">
+                  <medium>Agregar Nuevo Pedido</medium>
+                </div>
+
+                <!-- Form New Pedido -->
+                <form role="form">
+
+                  <!-- Row Date and Client -->
+                  <div class="row">
+
+                    <!-- Column Date -->
+                    <div class="col-lg-3">
+                      
+                      <!-- Form Group Date -->
+                      <div class="form-group mb-3">
+
+                        <!-- Form Input DatePicker -->
+                        <div class="input-group input-group-merge input-group-alternative">
+
+                          <!-- Form Input DatePicker Container -->
+                          <div class="input-group-prepend">
+
+                            <!-- Form Input DatePicker Icon -->
+                            <span class="input-group-text"><i class="ni ni-calendar-grid-58"></i></span>
+
+                          </div>
+
+                          <!-- Form Input DatePicker -->
+                          <input class="form-control datepicker" placeholder="Fecha" type="text" value="10/17/2023">
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                    <!-- Column Client -->
+                    <div class="col-lg-9">
+
+                      <!-- Form Group Cliente -->
+                      <div class="form-group">
+                        
+                        <!-- Form Input Select Cliente -->
+                        <select class="form-control text-center" id="clientes">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <!-- Row RFC, Phone number & Localidad -->
+                  <div class="row">
+
+                    <!-- Column RFC data -->
+                    <div class="col-sm-4">
+
+                    <!-- RFC -->
+                    <h4 class=" text-muted mb-3" id="rfc">LOCC7809282G3</h4>
+
+                    </div>
+
+                    <!-- Column RFC Text-->
+                    <div class="col-sm-1">
+
+                    <!-- RFC -->
+                    <h4 class="text-muted mb-3">Tel:</h4>
+
+                    </div>
+
+                    <!-- Column Tel -->
+                    <div class="col-sm-3">
+
+                    <!-- RFC -->
+                    <h4 class=" text-muted mb-3" id="tel">222 2879078</h4>
+                    
+                    </div>
+
+                    <!-- Column Tel -->
+                    <div class="col-sm-4">
+
+                    <!-- RFC -->
+                    <h4 class="text-center text-muted mb-3" id="localidad">Puebla, Puebla</h4>
+                    
+                    </div>
+
+
+                  </div>
+
+                  <!-- Row Notas -->
+                  <div class="form-group">
+
+                    <!-- Form Input Notas -->
+                    <div class="input-group">
+
+                      <!-- Form Input Notas Container -->
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">Notas:</span>
+                      </div>
+
+                      <!-- Form Input Notas -->
+                      <textarea class="form-control" aria-label="Notas" id="notas"></textarea>
+
+                    </div>
+
+                  </div>
+
+                  <!-- Divider -->
+                  <hr>
+
+                  <!-- Row Productos -->
+                  <div class="row">
+
+                    <!-- Column Productos -->
+                    <div class="col-lg-6">
+
+                      <!-- Form Group Productos -->
+                      <div class="form-group">
+                        
+                        <!-- Form Input Select Productos -->
+                        <label for="productos" class="form-control-label">Producto</label>
+                        <select class="form-control text-center" id="productos">
+                          <option>Shampoo</option>
+                          <option>Libros</option>
+                          <option>Espejos</option>
+                          <option>Libretas</option>
+                          <option>Plumas</option>
+                        </select>
+
+                      </div>
+
+                    </div>
+
+                    <!-- Column Cantidad -->
+                    <div class="col-lg-2">
+
+                      <!-- Form Group Cantidad -->
+                      <div class="form-group">
+
+                        <!-- Form Input Number Cantidad -->
+                        <label for="cantidad" class="form-control-label">Cantidad</label>
+                        <input class="form-control" type="number" value="1" id="cantidad">
+
+                      </div>
+
+                    </div>
+
+                    <!-- Column Precio Unitario -->
+                    <div class="col-lg-2">
+
+                      <!-- Form Group Precio Unitario-->
+                      <div class="form-group">
+
+                        <!-- Form Input Precio Unitario -->
+                        <label for="pu" class="form-control-label">P.U.</label>
+                        <input class="form-control text-danger" type="text" value="$ 200.00" id="pu" disabled>
+
+                      </div>
+
+                    </div>
+
+                    <!-- Column Add Button -->
+                    <div class="col-lg-2">
+
+                      <!-- Form Group Button Add -->
+                      <div class="form-group">
+
+                        <!-- Form Button Add -->
+                        <label for="add_prod" class="form-control-label">Agregar</label>
+                        <button class="btn btn-icon btn-primary" type="button" id="add_prod">
+                          <span class="btn-inner--icon"><i class="ni ni-fat-add"></i></span>
+                        </button>
+
+                      </div>
+
+                    </div>
+
+                    
+                  </div>
+
+                  <!-- Divider -->
+                  <hr>
+
+                  <!-- Detail Table Container -->
+                  <div class="row">
+                    
+                    <!-- Pedidos Detalle Table -->
+                    <div class="col">
+            
+                      <!-- Pedidos Detalle Card Container -->
+                      <div class="card">
+            
+                        <!-- Pedidos Detalle Table Responsive -->
+                        <div class="table-responsive">
+
+                          <!-- Pedidos Table -->
+                          <table class="table align-items-center table-flush table-sm" id="detail_table">
+
+                            <!-- Pedidos table header -->
+                            <thead class="thead-light">
+                              <tr>
+                                <th scope="col">Descripción</th>
+                                <th scope="col">Cantidad</th>
+                                <th scope="col">P.U.</th>
+                                <th scope="col">SubTotal</th>
+                              </tr>
+                            </thead>
+
+                            <!-- Pedidos table body -->
+                            <tbody>
+                              <tr>
+                                <th scope="row">
+                                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </th>
+                                <td>
+                                  10
+                                </td>
+                                <td>
+                                  $ 150.00 MXN
+                                </td>
+                                <td>
+                                  $1,500 MXN
+                                </td> 
+                                <td class="text-right">
+                                  <div class="dropdown">
+                                    <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      <i class="fas fa-ellipsis-v"></i>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+                                      <a class="dropdown-item" href="#">Borrar</a>
+                                    </div>
+                                  </div>
+                                </td>                                           
+                              </tr>
+
+                              <tr>
+                                <th scope="row">
+                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae.
+                                </th>
+                                <td>
+                                  2
+                                </td>
+                                <td>
+                                  $ 350.00 MXN
+                                </td>
+                                <td>
+                                  $ 700.00 MXN
+                                </td>                                           
+                                <td class="text-right">
+                                  <div class="dropdown">
+                                    <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      <i class="fas fa-ellipsis-v"></i>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+                                      <a class="dropdown-item" href="#">Borrar</a>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <th scope="row">
+                                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
+                                </th>
+                                <td>
+                                  3
+                                </td>
+                                <td>
+                                  $ 200.00 MXN
+                                </td>
+                                <td>
+                                  $ 600.00 MXN
+                                </td>                                      
+                                <td class="text-right">
+                                  <div class="dropdown">
+                                    <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      <i class="fas fa-ellipsis-v"></i>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+                                      <a class="dropdown-item" href="#">Borrar</a>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <th scope="row">
+                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum vel
+                                </th>
+                                <td>
+                                  4
+                                </td>
+                                <td>
+                                  $ 500.00 MXN
+                                </td>
+                                <td>
+                                  $ 2,000 MXN
+                                </td>                                            
+                                <td class="text-right">
+                                  <div class="dropdown">
+                                    <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      <i class="fas fa-ellipsis-v"></i>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+                                      <a class="dropdown-item" href="#">Borrar</a>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <th scope="row">
+                                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad porro
+                                </th>
+                                <td>
+                                  5
+                                </td>
+                                <td>
+                                  $ 700.00 MXN
+                                </td>
+                                <td>
+                                  $ 3,500 MXN
+                                </td>                                           
+                                <td class="text-right">
+                                  <div class="dropdown">
+                                    <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      <i class="fas fa-ellipsis-v"></i>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+                                      <a class="dropdown-item" href="#">Borrar</a>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+
+                            </tbody>
+
+                          </table>
+            
+                        </div>
+            
+                      </div>
+            
+                    </div>
+            
+                  </div>
+
+                  <!-- Divider -->
+                  <hr>
+
+                  <!-- Label SubTotal Group -->
+                  <div class="row">
+
+                    <!-- Column Subtotal Text -->
+                    <div class="col-sm-8">
+
+                    <!-- Subtotal Text -->
+                    <h4 class=" text-muted mb-3 text-right">Subtotal</h4>
+
+                    </div>
+
+                    <!-- Column SubTotal Data -->
+                    <div class="col-sm-4">
+
+                    <!-- SubTotal Data -->
+                    <h4 class="text-muted mb-3 text-right" id="subtotal">$ 15,000.00 MXN</h4>
+
+                    </div>
+
+                  </div>
+
+                  <!-- Label IVA Group -->
+                  <div class="row">
+
+                    <!-- Column IVA Text -->
+                    <div class="col-sm-8">
+
+                    <!-- IVA Text -->
+                    <h4 class=" text-muted mb-3 text-right">IVA</h4>
+
+                    </div>
+
+                    <!-- Column IVA Data -->
+                    <div class="col-sm-4">
+
+                    <!-- IVA Data -->
+                    <h4 class="text-muted mb-3 text-right" id="iva">$ 1,500.00 MXN</h4>
+
+                    </div>
+
+                  </div>
+
+                  <!-- Divider -->
+                  <hr>
+
+                  <!-- Label TOTAL Group -->
+                  <div class="row">
+
+                    <!-- Column Total Text -->
+                    <div class="col-sm-8">
+
+                    <!-- Subtotal Text -->
+                    <h3 class=" text-muted mb-3 text-right">Total</h3>
+
+                    </div>
+
+                    <!-- Column SubTotal Data -->
+                    <div class="col-sm-4">
+
+                    <!-- Total Data -->
+                    <h3 class="text-muted mb-3 text-right" id="total">$ 16,500.00 MXN</h3>
+
+                    </div>
+
+                  </div>
+
+                  <!-- Divider -->
+                  <hr>
+
+                  <!-- Buttons Save & Cancel Pedido -->
+                  <div class="row">
+
+                    <!-- Column Cancel Button -->
+                    <div class="col-sm-4">
+
+                      <!-- Cancel Button -->
+                      <button type="button" class="btn btn-block btn-danger mb-3">
+                        <i class="fa fa-trash"></i>
+                        Cancelar
+                      </button>
+
+                    </div>
+
+                    <!-- Space -->
+                    <div class="col-sm-4"></div>
+
+                    <!-- Column Save Button -->
+                    <div class="col-sm-4">
+
+                      <!-- Save Button -->
+                      <button type="button" class="btn btn-block btn-primary mb-3">
+                        <i class="fa fa-plus-circle"></i>
+                        Guardar
+                      </button>
+
+                    </div>
+
+                  </div>
+                
+                </form>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Modal Container Details Pedido -->
+    <div class="modal fade" id="modalDetails" tabindex="-1" role="dialog" aria-labelledby="modalDetailsLabel" aria-hidden="true">
+
+      <!-- Modal Details Pedido -->
+      <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+
+        <!-- Modal Content Details Pedido -->
+        <div class="modal-content">
+
+          <!-- Modal Title Details Pedido -->
+          <div class="modal-header">
+
+            <!-- Modal Title -->
+            <h5 class="modal-title" id="modalDetailsLabel">Pedido: 20253251-1</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+
+          </div>
+
+          <!-- Modal Body Details Pedido -->
+          <div class="modal-body bg-default">
+
+            <!-- Date & Client -->
+            <div class="row">
+
+              <!-- Column Date -->
+              <div class="col-lg-3">
+                
+                <!-- Date Container -->
+                <div class="mb-3">
+
+                  <!-- Date from pedido -->
+                  <div class="details_data">
+                    <span>Fecha: </span>
+                    <span id="details_date">22-11-23</span>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <!-- Column Client -->
+              <div class="col-lg-9">
+                
+                <!-- Client Container -->
+                <div class="mb-3">
+
+                  <!-- Client from pedido -->
+                  <div class="details_data">
+                    <span id="details_client">Carlos Lopez</span>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <!-- Row RFC, Phone number & Localidad -->
+            <div class="row">
+
+              <!-- Column RFC data -->
+              <div class="col-sm-4">
+
+              <!-- RFC -->
+              <h6 class="mb-3 details_txt" id="details_rfc">LOCC7809282G3</h6>
+
+              </div>
+
+              <!-- Column RFC Text-->
+              <div class="col-sm-1">
+
+              <!-- RFC -->
+              <h6 class="mb-3 details_txt">Tel:</h4>
+
+              </div>
+
+              <!-- Column Tel -->
+              <div class="col-sm-3">
+
+              <!-- RFC -->
+              <h6 class="mb-3 details_txt" id="details_tel">222 2879078</h6>
+              
+              </div>
+
+              <!-- Column Tel -->
+              <div class="col-sm-4">
+
+              <!-- RFC -->
+              <h6 class="mb-3 details_txt" id="details_localidad">Puebla, Puebla</h6>
+              
+              </div>
+
+
+            </div>
+
+            <!-- Row Notas -->
+            <div class="row">
+
+              <!-- Column Notas -->
+              <div class="col-sm-12">
+
+                <!-- Notas Container -->
+                <div class="mb-3">
+
+                  <!-- Notas from pedido -->
+                  <div class="details_txt2">
+
+                    <span id="details_notas">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus dolor id, officia culpa beatae sint voluptatum aliquam sed consequuntur, provident, reiciendis aut repellat ex enim facilis ad voluptas recusandae ab.
+                    Unde, iure incidunt eos sapiente dignissimos recusandae ut fugit temporibus illo deleniti ab, laborum quo suscipit quibusdam a cupiditate. Aspernatur tempora nobis voluptas sint fugit architecto consectetur amet mollitia delectus.
+                  </span>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <!-- Divider -->
+            <hr>
+
+            <!-- Pedidos Detalle Card Container -->
+            <div class="card">
+  
+              <!-- Pedidos Detalle Table Responsive -->
+              <div class="table-responsive">
+
+                <!-- Pedidos Table -->
+                <table class="table align-items-center table-flush table-sm" id="detail_table">
+
+                  <!-- Pedidos table header -->
+                  <thead class="thead-light">
+                    <tr>
+                      <th scope="col">Descripción</th>
+                      <th scope="col">Cantidad</th>
+                      <th scope="col">P.U.</th>
+                      <th scope="col">SubTotal</th>
+                    </tr>
+                  </thead>
+
+                  <!-- Pedidos table body -->
+                  <tbody>
+                    <tr>
+                      <th scope="row">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </th>
+                      <td>
+                        10
+                      </td>
+                      <td>
+                        $ 150.00 MXN
+                      </td>
+                      <td>
+                        $1,500 MXN
+                      </td> 
+                      <td class="text-right">
+                        <div class="dropdown">
+                          <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-ellipsis-v"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+                            <a class="dropdown-item" href="#">Borrar</a>
+                          </div>
+                        </div>
+                      </td>                                           
+                    </tr>
+
+                    <tr>
+                      <th scope="row">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae.
+                      </th>
+                      <td>
+                        2
+                      </td>
+                      <td>
+                        $ 350.00 MXN
+                      </td>
+                      <td>
+                        $ 700.00 MXN
+                      </td>                                           
+                      <td class="text-right">
+                        <div class="dropdown">
+                          <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-ellipsis-v"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+                            <a class="dropdown-item" href="#">Borrar</a>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
+                      </th>
+                      <td>
+                        3
+                      </td>
+                      <td>
+                        $ 200.00 MXN
+                      </td>
+                      <td>
+                        $ 600.00 MXN
+                      </td>                                      
+                      <td class="text-right">
+                        <div class="dropdown">
+                          <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-ellipsis-v"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+                            <a class="dropdown-item" href="#">Borrar</a>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum vel
+                      </th>
+                      <td>
+                        4
+                      </td>
+                      <td>
+                        $ 500.00 MXN
+                      </td>
+                      <td>
+                        $ 2,000 MXN
+                      </td>                                            
+                      <td class="text-right">
+                        <div class="dropdown">
+                          <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-ellipsis-v"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+                            <a class="dropdown-item" href="#">Borrar</a>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad porro
+                      </th>
+                      <td>
+                        5
+                      </td>
+                      <td>
+                        $ 700.00 MXN
+                      </td>
+                      <td>
+                        $ 3,500 MXN
+                      </td>                                           
+                      <td class="text-right">
+                        <div class="dropdown">
+                          <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-ellipsis-v"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow">
+                            <a class="dropdown-item" href="#">Borrar</a>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+
+                  </tbody>
+
+                </table>
+  
+              </div>
+  
+            </div>
+
+            <!-- Divider -->
+            <hr>
+
+            
+            <!-- Label SubTotal Group -->
+            <div class="row">
+              
+              <!-- Column Subtotal Text -->
+              <div class="col-sm-8">
+                
+                <!-- Subtotal Text -->
+                <h4 class="details_txt mb-3 text-right">Subtotal</h4>
+                
+              </div>
+
+              <!-- Column SubTotal Data -->
+              <div class="col-sm-4">
+
+                <!-- SubTotal Data -->
+                <h4 class="details_txt mb-3 text-right" id="details_subtotal">$ 15,000.00 MXN</h4>
+
+              </div>
+
+            </div>
+
+            <!-- Label IVA Group -->
+            <div class="row">
+
+              <!-- Column IVA Text -->
+              <div class="col-sm-8">
+
+              <!-- IVA Text -->
+              <h4 class="details_txt mb-3 text-right">IVA</h4>
+
+              </div>
+
+              <!-- Column IVA Data -->
+              <div class="col-sm-4">
+
+              <!-- IVA Data -->
+              <h4 class="details_txt mb-3 text-right" id="details_iva">$ 1,500.00 MXN</h4>
+
+              </div>
+
+            </div>
+
+            <!-- Divider -->
+            <hr>
+
+            <!-- Label TOTAL Group -->
+            <div class="row">
+
+              <!-- Column Total Text -->
+              <div class="col-sm-8">
+
+                <!-- Subtotal Text -->
+                <h3 class="details_txt mb-3 text-right">Total</h3>
+
+              </div>
+
+              <!-- Column Total Data -->
+              <div class="col-sm-4">
+
+                <!-- Total Data -->
+                <h3 class="details_data mb-3 text-right" id="details_total">$ 16,500.00 MXN</h3>
+
+              </div>
+
+            </div>  
+
+        </div>
+
+      </div>
+
+    </div>
 
   </div>
 

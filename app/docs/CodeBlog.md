@@ -177,3 +177,13 @@
 
 > As seen in ZMT edit page, The best way to do it is create the modal to show what's in the selected pedido. Using that modal as a base, we can create the modal to edit the pedido.
 > **_CLC_**.
+
+---
+
+# 30/10/23
+
+- [x] Create the modal to show the pedido details.
+- [x] Relocate modals to another area in the html to make the code cleaner and ordered.
+- [ ] Remove the menu action column (3dots), from the pedidos details table.
+
+---
